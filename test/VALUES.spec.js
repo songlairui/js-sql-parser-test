@@ -18,7 +18,7 @@ const testVALUES = [
 describe('err RETURN', function() {
   it('should return null in result.err, and values in values', function() {
     let result = parseValues(testVALUES[0])
-    assert.equal(null, result.err)\
+    assert.equal(null, result.err)
   })
 })
 
